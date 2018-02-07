@@ -1,6 +1,10 @@
+counter = 0
+
 def using_times
-	7.times do
+	loop do
 	  puts "Wingardium Leviosa"
+	  counter =+ 1
+	  break counter >= 7
 	end
 end
 
